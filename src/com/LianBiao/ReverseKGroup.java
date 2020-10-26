@@ -14,22 +14,34 @@ public class ReverseKGroup {
         ListNode result = reverLiannbiao(2, head, pre);
         printValue(result);
     }
-    public static ListNode reverLiannbiao(int k, ListNode head, ListNode pre){
-        int length = 1;
-        ListNode temp=null;
-        if(comLength(head)<k){
-            return head;
+    ListNode reverseKGroup(ListNode head, int k) {
+        if (head == null) return null;
+        // 区间 [a, b) 包含 k 个待反转元素
+        ListNode a, b;
+        a = b = head;
+        for (int i = 0; i < k; i++) {
+            // 不足 k 个，不需要反转，base case
+            if (b == null) return head;
+            b = b.next;
         }
-        ListNode node = head.next, next_pre = head;
-        while (length<k&&node!=null){
-            length++;
-            temp = node;
-            node = node.next;
-            temp.next = pre.next;
-            pre.next = temp;
+        // 反转前 k 个元素
+        ListNode newHead = reverse(a, b);
+        // 递归反转后续链表并连接起来
+        a.next = reverseKGroup(b, k);
+        return newHead;
+    }
+    public static ListNode reverse(ListNode head, ListNode tail) {
+        ListNode pre = new ListNode(-1);
+        ListNode cur=head, next=head.next;
+        // while 终止的条件改一下就行了
+        while (head != b) {
+            head = head.next;
+            cur.next = pre;
+            pre = cur;
+            cur = nxt;
         }
-        reverLiannbiao(k, node, next_pre);
-        return pre.next;
+        // 返回反转后的头结点
+        return pre;
     }
 
     public static int comLength(ListNode node){
