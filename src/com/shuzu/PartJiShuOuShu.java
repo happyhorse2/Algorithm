@@ -10,27 +10,20 @@ public class PartJiShuOuShu {
 	}
 	
 	public static void changeShuZhuMethod(int[] array) {
-		if(array==null||array.length==0) {
-			return ;
-		}
-		int begin = 0, from =-1; //指向第一个偶数的位置
-		while (begin<array.length) {
-			while(begin<array.length&&array[begin]%2!=0) {
-				begin++;
-			}
-			from = begin + 1; //指向第一个奇数的位置
-			while(from<array.length&&array[from]%2==0) {
-				from++;
-			}
-			System.out.println(begin+","+from);
-			if(from<array.length) {
-				int temp = array[from];
-				for(int i = from-1; i>=begin; i--){
-					array[i+1] = array[i]; 
+		int length = array.length;
+		int odd = 0;
+		int even = 0;                           //even用于遍历数组使用，odd用于定位
+		while (even < length){
+			if (array[even]%2 != 0){
+				int temp = array[even];
+				for (int i = even; i>odd; i--){
+					array[i] = array[i-1];
 				}
-				array[begin++] = temp;
+				array[odd] = temp;
+				odd++;
+				even++;
 			}else {
-				break;
+				even++;
 			}
 		}
 	}
