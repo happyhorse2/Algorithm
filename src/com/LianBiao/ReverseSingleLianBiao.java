@@ -7,7 +7,8 @@ public class ReverseSingleLianBiao {
 	
 	public static void main(String[] args) {
 		LinkNode head = construct();
-		head = reverseMethod(head);
+		//head = reverseMethod(head);
+		head =  reverseMethodV2(head);
 		printList(head);
 	}
 	
@@ -25,6 +26,19 @@ public class ReverseSingleLianBiao {
 		}
 		return head.next;
 	}
+
+	public static LinkNode reverseMethodV2(LinkNode node) {
+		LinkNode pre, cur, nxt;
+		pre=null; cur = node; nxt=node;
+		while (cur!=null){
+			nxt = cur.next;
+			cur.next = pre;
+			pre = cur;
+			cur = nxt;
+		}
+		return pre;
+	}
+
 	
 	
 	public static LinkNode construct() {

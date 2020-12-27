@@ -1,6 +1,5 @@
 package com.shuzu;
 
-import java.nio.channels.NetworkChannel;
 
 public class FindNumberRepeat {
    public static void main(String[] args) {

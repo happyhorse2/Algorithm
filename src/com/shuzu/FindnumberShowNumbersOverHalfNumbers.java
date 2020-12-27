@@ -17,7 +17,6 @@ public class FindnumberShowNumbersOverHalfNumbers {
 			if(map.containsKey(keyString)) {
 				temptimes = map.get(keyString)+1;
 				map.put(keyString, temptimes);
-				
 			}else {
 				temptimes = temptimes+1;
 				map.put(keyString, temptimes);

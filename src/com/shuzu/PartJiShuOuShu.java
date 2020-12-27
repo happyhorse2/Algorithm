@@ -14,7 +14,7 @@ public class PartJiShuOuShu {
 		int odd = 0;
 		int even = 0;                           //even用于遍历数组使用，odd用于定位
 		while (even < length){
-			if (array[even]%2 != 0){
+			if(array[even]%2 != 0){
 				int temp = array[even];
 				for (int i = even; i>odd; i--){
 					array[i] = array[i-1];

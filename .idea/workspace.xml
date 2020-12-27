@@ -20,10 +20,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62a40fba-e7d2-4b21-b03c-844130f36ed1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/shuzu/CirCleShuZuMin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/com/shuzu/CirCleShuZuMin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/LianBiao/CirCleNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/TwoChaTree/JudgeSumInPath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/TwoChaTree/ZuiCommonParentNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/shuzu/TwoNumberMidNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/special/NumberMToNJinzhi.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/LianBiao/ReverseKGroup.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/LianBiao/ReverseKGroup.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/LianBiao/ReverseLianbiaoFromMToN.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/LianBiao/ReverseLianbiaoFromMToN.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/LianBiao/ReverseSingleLianBiao.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/LianBiao/ReverseSingleLianBiao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/TwoChaTree/LevelBianliTwoChaTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/TwoChaTree/LevelBianliTwoChaTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/shuzu/FindNumberRepeat.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/shuzu/FindNumberRepeat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/shuzu/FindnumberShowNumbersOverHalfNumbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/shuzu/FindnumberShowNumbersOverHalfNumbers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/shuzu/PartJiShuOuShu.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/shuzu/PartJiShuOuShu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/stack/getMinStack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/LianBiao/ReverseKGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/LianBiao/ReverseKGroup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/LianBiao/ReverseLianbiaoFromMToN.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/LianBiao/ReverseLianbiaoFromMToN.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/LianBiao/ReverseSingleLianBiao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/LianBiao/ReverseSingleLianBiao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/TwoChaTree/LevelBianliTwoChaTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/TwoChaTree/LevelBianliTwoChaTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/shuzu/FindNumberRepeat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/shuzu/FindNumberRepeat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/shuzu/FindnumberShowNumbersOverHalfNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/shuzu/FindnumberShowNumbersOverHalfNumbers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/shuzu/PartJiShuOuShu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/shuzu/PartJiShuOuShu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/stack/getMinStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/stack/getMinStack.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +61,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1jPRR5arLUD2fMcwtdTCNbL60UJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -48,15 +69,67 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/java/miaosha" />
   </component>
-  <component name="RunManager">
-    <configuration name="ReverseKGroup" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.LianBiao.ReverseKGroup" />
+  <component name="RunManager" selected="Application.TwoNumberMidNumber">
+    <configuration name="HalfShowNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.shuzu.HalfShowNumber" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.LianBiao.*" />
+          <option name="PATTERN" value="com.shuzu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LevelBianliTwoChaTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.TwoChaTree.LevelBianliTwoChaTree" />
+      <module name="Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.TwoChaTree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NumberMToNJinzhi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.special.NumberMToNJinzhi" />
+      <module name="Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.special.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Problemfive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RememberTest.Problemfive" />
+      <module name="Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="RememberTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TwoNumberMidNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.shuzu.TwoNumberMidNumber" />
+      <module name="Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shuzu.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -66,7 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ReverseKGroup" />
+        <item itemvalue="Application.TwoNumberMidNumber" />
+        <item itemvalue="Application.NumberMToNJinzhi" />
+        <item itemvalue="Application.HalfShowNumber" />
+        <item itemvalue="Application.LevelBianliTwoChaTree" />
+        <item itemvalue="Application.Problemfive" />
       </list>
     </recent_temporary>
   </component>
@@ -91,24 +168,41 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1043" height="121" key="GridCell.Tab.0.bottom" timestamp="1603712832440">
+    <state x="398" y="78" width="424" height="484" key="FileChooserDialogImpl" timestamp="1607265892005">
       <screen x="67" y="27" width="1097" height="588" />
     </state>
-    <state width="1043" height="121" key="GridCell.Tab.0.bottom/67.27.1097.588@67.27.1097.588" timestamp="1603712832440" />
-    <state width="1043" height="121" key="GridCell.Tab.0.center" timestamp="1603712832439">
+    <state x="398" y="78" width="424" height="484" key="FileChooserDialogImpl/67.27.1097.588@67.27.1097.588" timestamp="1607265892005" />
+    <state width="1277" height="126" key="GridCell.Tab.0.bottom" timestamp="1608817383825">
+      <screen x="67" y="27" width="1331" height="720" />
+    </state>
+    <state width="1043" height="211" key="GridCell.Tab.0.bottom/67.27.1097.588@67.27.1097.588" timestamp="1608808310740" />
+    <state width="1043" height="2" key="GridCell.Tab.0.bottom/67.27.1097.628@67.27.1097.628" timestamp="1603879915958" />
+    <state width="1277" height="126" key="GridCell.Tab.0.bottom/67.27.1331.720@67.27.1331.720" timestamp="1608817383825" />
+    <state width="1277" height="126" key="GridCell.Tab.0.center" timestamp="1608817383820">
+      <screen x="67" y="27" width="1331" height="720" />
+    </state>
+    <state width="1043" height="211" key="GridCell.Tab.0.center/67.27.1097.588@67.27.1097.588" timestamp="1608808310739" />
+    <state width="1043" height="2" key="GridCell.Tab.0.center/67.27.1097.628@67.27.1097.628" timestamp="1603879915957" />
+    <state width="1277" height="126" key="GridCell.Tab.0.center/67.27.1331.720@67.27.1331.720" timestamp="1608817383820" />
+    <state width="1277" height="126" key="GridCell.Tab.0.left" timestamp="1608817383818">
+      <screen x="67" y="27" width="1331" height="720" />
+    </state>
+    <state width="1043" height="211" key="GridCell.Tab.0.left/67.27.1097.588@67.27.1097.588" timestamp="1608808310738" />
+    <state width="1043" height="2" key="GridCell.Tab.0.left/67.27.1097.628@67.27.1097.628" timestamp="1603879915951" />
+    <state width="1277" height="126" key="GridCell.Tab.0.left/67.27.1331.720@67.27.1331.720" timestamp="1608817383818" />
+    <state width="1277" height="126" key="GridCell.Tab.0.right" timestamp="1608817383822">
+      <screen x="67" y="27" width="1331" height="720" />
+    </state>
+    <state width="1043" height="211" key="GridCell.Tab.0.right/67.27.1097.588@67.27.1097.588" timestamp="1608808310739" />
+    <state width="1043" height="2" key="GridCell.Tab.0.right/67.27.1097.628@67.27.1097.628" timestamp="1603879915957" />
+    <state width="1277" height="126" key="GridCell.Tab.0.right/67.27.1331.720@67.27.1331.720" timestamp="1608817383822" />
+    <state x="279" y="136" key="run.anything.popup" timestamp="1603870834929">
       <screen x="67" y="27" width="1097" height="588" />
     </state>
-    <state width="1043" height="121" key="GridCell.Tab.0.center/67.27.1097.588@67.27.1097.588" timestamp="1603712832439" />
-    <state width="1043" height="121" key="GridCell.Tab.0.left" timestamp="1603712832438">
-      <screen x="67" y="27" width="1097" height="588" />
-    </state>
-    <state width="1043" height="121" key="GridCell.Tab.0.left/67.27.1097.588@67.27.1097.588" timestamp="1603712832438" />
-    <state width="1043" height="121" key="GridCell.Tab.0.right" timestamp="1603712832439">
-      <screen x="67" y="27" width="1097" height="588" />
-    </state>
-    <state width="1043" height="121" key="GridCell.Tab.0.right/67.27.1097.588@67.27.1097.588" timestamp="1603712832439" />
+    <state x="279" y="136" key="run.anything.popup/67.27.1097.588@67.27.1097.588" timestamp="1603870834929" />
     <state x="277" y="23" width="883" height="937" key="search.everywhere.popup" timestamp="1603844489360">
       <screen x="0" y="23" width="1440" height="812" />
     </state>
