@@ -14,7 +14,9 @@ public class MostLength {
 		}
 		int leftH = dfs(root.leftNode);
 		int rightH = dfs(root.rightNode);
-		max = Math.max(max, leftH+rightH);
+		System.out.println(leftH+"  "+rightH);
+		//掉左右叶子节点本身所计算的2，在加上左右节点到根节点的2个路径
+		max = Math.max(max, leftH+rightH-2+2);
 		return Math.max(leftH, rightH)+1;
 	}
 	public static int mostLengthOfBinaryTree(TreeNode root) {

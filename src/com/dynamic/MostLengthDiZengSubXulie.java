@@ -39,7 +39,8 @@ public class MostLengthDiZengSubXulie {
 		}
 		int[] lis = new int[len];
 		//逆序最后一个赋值
-		lis[--len] = arr[index]; 
+		lis[--len] = arr[index];
+
 		//arr[i]为下一个最长子序列的数，从后向前
 		for(int i=index;i>=0;i--) {
 			if(arr[i]<arr[index]&&dplength[i]==dplength[index]-1) {

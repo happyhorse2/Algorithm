@@ -26,6 +26,21 @@ public class DeleteHalfNode {
 		}
 		slow.next= slow.next.next;
 		return node;
+
+//		if(node==null||node.next==null){
+//			return node;
+//		}
+//		LinkNode slow = node;
+//		LinkNode quick = node;
+//		while (quick.next!=null&&quick.next.next!=null){
+//			slow = slow.next;
+//			quick = quick.next.next;
+//		}
+//		System.out.println(slow.value);
+//		slow.next = slow.next.next;
+//        return slow;
+
+
 	}
 
 	public static LinkNode construct() {

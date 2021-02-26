@@ -16,18 +16,17 @@ public class SortLianBiao {
 		LinkNode head = new LinkNode(-1);
 		head.next = first;
 		LinkNode pre, temp2, last = first;
-		LinkNode temp = first.next;
-		while(temp!=null) {
-			pre = findPreInsert(head, temp);
+		LinkNode cur = first.next;
+		while(cur!=null) {
+			pre = findPreInsert(head, cur);
 			if(pre!=last) {
-				temp2 = temp;
-				temp = temp.next;
-				last.next = temp2.next;
-				temp2.next= pre.next;
-				pre.next = temp2;
+				last.next = cur.next;
+				cur.next  = pre.next;
+				pre.next = cur;
+				cur = last.next;
 			}else {
 				last =  last.next;
-				temp = temp.next;
+				cur=cur.next;
 			}
 		}
 		return head.next;

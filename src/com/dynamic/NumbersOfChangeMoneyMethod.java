@@ -70,13 +70,14 @@ public class NumbersOfChangeMoneyMethod {
     		return 0;
     	}
     	int[] result= new int[money+1];
-    	//初始化只是用一种货币的情况
+
+    	//初始化只是用一种货币的情况， result[0][0]=1；
     	for(int i=0;i*chargeMoney[0]<=money;i++) {
     		result[i*chargeMoney[0]] = 1;
     	}
     	//计算使用多个货币的情况，result[j-chargeMoney[i]]，使用之前的货币，到达j-chargeMoney[i]有多少种方法，result[j]使用之前的货币,到达j有多少种方法
     	for(int i=1; i< chargeMoney.length; i++) {
-    		for(int j=1;j<=money;j++) {
+    		for(int j=0;j<=money;j++) {
     			result[j]= result[j]+(j-chargeMoney[i]>=0?result[j-chargeMoney[i]]:0);
     		}
     	}

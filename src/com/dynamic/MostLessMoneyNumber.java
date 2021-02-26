@@ -54,7 +54,7 @@ public class MostLessMoneyNumber {
 
 		int left = 0;
 		for(int i=1;i<chargeMoney.length;i++) {
-			for(int j=1;j<=money;j++) {
+			for(int j=0;j<=money;j++) {
 				left = Integer.MAX_VALUE;
 				//使用当前货币需要个数
 				if (j-chargeMoney[i]>=0 && result[j-chargeMoney[i]]!=Integer.MAX_VALUE){
